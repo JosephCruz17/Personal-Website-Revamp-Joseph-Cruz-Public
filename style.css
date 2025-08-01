@@ -1,0 +1,204 @@
+div {
+    font-family: Helvetica;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+nav {
+  background-image: url("images/pcbg.png");
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav a {
+  font-family: Helvetica;
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+nav a:hover {
+  color: #b90909;
+  border-bottom: 2px solid #b90909;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("pcbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+  background-color: #000;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/intbg.jpg");
+  height: 40vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+#myButton {
+    background-color: black;
+    color: white;
+    border: 2px solid #b90909;
+    /* Green */
+}
+
+#about-me {
+    width: 100%;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    border: 2px solid #b90909;
+    border-radius: 30px;
+    margin: 40px auto;
+}
+
+#hobbies {
+    width: 100%;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    border: 2px solid #b90909;
+    border-radius: 30px;
+    margin: 40px auto;
+}
+
+.profile-img {
+  border-radius: 5%;
+  transition: transform 0.3s ease;
+  max-width: 100%;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+}
+
+.zoom-img:hover {
+  transform: scale(1.05);
+}
+
+
+#academics {
+    width: 100%;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    border: 2px solid #b90909;
+    border-radius: 30px;
+    margin: 40px auto;
+}
+
+#academics h2 {
+  text-align: center;
+  font-size: 65px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.grade {
+  margin-bottom: 30px;
+}
+
+.grade h3 {
+    text-align: left;
+  font-size: 60px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.grade ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.grade ul li {
+  margin-bottom: 6px;
+  font-size: 55px;
+}
+
+#Experience {
+    width: 100%;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    border: 2px solid #b90909;
+    border-radius: 30px;
+    margin: 40px auto;
+    font-size: 55px;
+}
+
+.experience-list {
+  max-width: 600px;
+  margin: 20px ;
+  text-align: left; 
+}
+
+.experience-list ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.experience-list li {
+  font-size: 55px;
+  margin-bottom: 6px;
+  color: white; 
+}
+
+#Awards {
+    width: 100%;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    border: 2px solid #b90909;
+    border-radius: 30px;
+    margin: 40px auto;
+    font-size: 55px;
+}
+
+.award-img {
+  width: 80%;
+  max-width: 750px;
+  display: block;
+  margin: 20px auto;
+}
